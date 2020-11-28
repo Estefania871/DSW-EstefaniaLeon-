@@ -1,0 +1,104 @@
+*{
+    margin: o;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    
+    background: #fff;
+}
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    
+    background: #313D52;
+}
+.navegacion ul{
+    list-style: none;
+
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li >a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none
+    ;
+}
+.menu li a:hover{
+    color: #CE7D35;
+}
+.submenu{
+    position: absolute;
+    background: #313D52;
+    width: 120px;
+
+    visibility: hidden;
+
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+
+    opacity: 2;
+}
+section{
+    text-align: center;
+    background-color: rgb(247, 244, 241);
+}
+
+aside{
+    margin: 0;
+    padding: o;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.social{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+.social ul{
+    list-style: none;
+}
+.social ul li a{
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    -webkit-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+.social ul li .icon-twitter{
+    background: azure;
+}
+.social ul li a:hover{
+    padding: 10px 30px;
+    background: #313D52 ;
+}
+footer{
+    background: rgb(255, 115, 0);
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    line-height: 5opx;
+}
